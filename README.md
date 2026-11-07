@@ -89,6 +89,5 @@ Checked with Xcode 27.0 / Swift 6.4:
 - macOS app build: passed.
 - Generic iOS Simulator app build: passed.
 - Xcode macOS test scheme: 12 tests passed, zero failures.
-- Swift Package core tests: 12 tests passed, zero failures.
-
+  
 The iOS target was compiled; interactive iPhone simulator behavior and a real Go server were not exercised. Xcode's current XCTest emits a deployment-version linker warning for the macOS 13 test target; the tests pass on the installed macOS runtime.
